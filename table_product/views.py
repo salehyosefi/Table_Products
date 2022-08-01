@@ -3,7 +3,6 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework import status
 from rest_framework.response import Response
-from rest_framework import permissions
 from .models import TableProduct
 from .serializers import PruductModelSerializer
 # Create your views here.
